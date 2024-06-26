@@ -18,6 +18,7 @@
 		url('../fonts/OpenSans-SemiBold.woff') format('woff');
 	font-weight: 600;
 	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
@@ -28,6 +29,7 @@
 		url('../fonts/OpenSans-Bold.woff') format('woff');
 	font-weight: bold;
 	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
@@ -103,7 +105,7 @@ img {
 }
 
 .header__nav {
-	margin-right: 296px;
+	margin-right: auto;
 }
 
 .nav__list {
@@ -118,3 +120,50 @@ img {
 	color: #fff;
 }
 
+/*hero*/
+
+.hero {
+	background-image: url("../images/hero.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 146px 0;
+}
+
+.hero__content {
+	max-width: 34%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.hero__title {
+	margin: 0px;
+	margin-bottom: 20px;
+	color: #fff;
+	text-shadow: 0 4px 4px  rgba(0, 0, 0, 0.25);
+	font-family: 'Open Sans Bold', sans-serif;
+	font-size: 72px;
+	line-height: 94%;
+}
+
+.hero__description {
+	margin: 0;
+	margin-bottom: 92px;
+	color: #fff;
+	font-family: 'Open Sans Bold', sans-serif;
+	font-size: 18px;
+	line-height: 167%;
+}
+
+.hero__btn {
+	background-color: #9D5CD0;
+	color: #fff;
+	font-family: 'Open Sans Bold', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	height: 70px;
+	max-width: 314px;
+	padding: 17px 35px;
+	border-radius: 100px;
+}
